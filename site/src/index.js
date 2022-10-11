@@ -5,6 +5,7 @@ import Home from './pages/home';
 import Acai from './pages/acai';
 import Signo from './pages/signo';
 import Grama from './pages/grama';
+import Febre from './pages/febre';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,6 +17,7 @@ root.render(
       <Route path='/acai' element={<Acai />} />
       <Route path='/signo' element={<Signo />} />
       <Route path='/grama' element={<Grama />} /> 
+      <Route path='/febre' element={<Febre />} />
     </Routes>
     </BrowserRouter>
   </React.StrictMode>

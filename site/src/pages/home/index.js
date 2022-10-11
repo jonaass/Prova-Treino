@@ -9,7 +9,8 @@ export default function Home() {
 
         <a href="/acai">Açai</a> <br/>
         <a href="/signo">Signo</a> <br/>
-        <a href="/grama">Grama</a>
+        <a href="/grama">Grama</a> <br/>
+        <a href='/febre'>Febre</a>
 
         </main>
     );
