@@ -6,6 +6,8 @@ import Acai from './pages/acai';
 import Signo from './pages/signo';
 import Grama from './pages/grama';
 import Febre from './pages/febre';
+import SalarioLiquido from './pages/salario-liquido';
+import Parada from './pages/paradas';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -18,6 +20,8 @@ root.render(
       <Route path='/signo' element={<Signo />} />
       <Route path='/grama' element={<Grama />} /> 
       <Route path='/febre' element={<Febre />} />
+      <Route path='/salario' element={<SalarioLiquido />} />
+      <Route path='/paradas' element={<Parada />} />
     </Routes>
     </BrowserRouter>
   </React.StrictMode>
